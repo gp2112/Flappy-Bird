@@ -11,7 +11,7 @@ const g = 0.02; //gravity aceleration
 
 const speed_press = 40; // how much the bird jumps against gravity
 
-const bird_speed = 0.7; // bird's speed relative to the background
+const bird_speed = 1; // bird's speed relative to the background
 
 const ground = 27; 
 
