@@ -1,0 +1,11 @@
+canvas {
+	width: 1000px;
+	height: 600px;
+	border: 4px solid grey;
+	margin:20px;
+	margin-top:	50px;;
+}
+
+#score_h1 {
+	font-family: 'Press Start 2P';
+}
