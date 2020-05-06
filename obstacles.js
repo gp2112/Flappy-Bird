@@ -19,9 +19,9 @@ class Obstacle {
 
 	colide(player) {
 		if (this.upsideDown) {
-			return (this.x <= 65 && this.x >= 65-this.width) && (player.y <= this.height-5);
+			return (this.x <= 65 && this.x >= 65-this.width) && (player.y <= this.height-10);
 		}
-		return (this.x <= 65 && this.x >= 65-this.width) && (player.y >= this.y-13);
+		return (this.x <= 65 && this.x >= 65-this.width) && (player.y >= this.y-15);
 
 	}
 	passed(player) {
